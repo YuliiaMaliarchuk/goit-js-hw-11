@@ -15,7 +15,6 @@ const iconSvgUrl = 'data:image/svg+xml;utf8,' + encodeURIComponent(`
       <path fill="#FAFAFB" d="M6.969 6.969a.75.75 0 0 1 1.062 0L12 10.939l3.969-3.97a.75.75 0 1 1 1.062 1.062L13.061 12l3.97 3.969a.752.752 0 0 1-1.062 1.062L12 13.061l-3.969 3.97a.752.752 0 0 1-1.282-.531.751.751 0 0 1 .22-.531L10.939 12 6.97 8.031a.75.75 0 0 1 0-1.062Z"/>
     </svg>
     `);
-
 const form = document.querySelector('.form');
 
 form.addEventListener('submit', async e => {
@@ -42,7 +41,7 @@ form.addEventListener('submit', async e => {
             position: 'topRight',
             timeout: 5000,
             backgroundColor: '#ef4040', 
-            сolor: '#fafafb',
+            color: '#fafafb',
             iconUrl: iconSvgUrl,
             icon: '',
         });
